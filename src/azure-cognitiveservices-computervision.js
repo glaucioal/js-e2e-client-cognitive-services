@@ -11,6 +11,7 @@ import RandomImageUrl from './DefaultImages';
 const key = process.env.REACT_APP_COMPUTERVISIONKEY;
 const endpoint = process.env.REACT_APP_COMPUTERVISIONENDPOINT;
 
+console.log(process.env);
 console.log(`key = ${key}`)
 console.log(`endpoint = ${endpoint}`)
 
