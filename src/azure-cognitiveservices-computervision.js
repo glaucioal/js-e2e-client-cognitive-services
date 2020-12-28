@@ -13,8 +13,6 @@ const endpoint = process.env.REACT_APP_COMPUTERVISIONENDPOINT;
 
 console.log("Todas chaves do process:")
 console.log(process.env);
-console.log(`key = ${key}`)
-console.log(`endpoint = ${endpoint}`)
 
 // Cognitive service features
 const visualFeatures = [
